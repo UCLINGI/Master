@@ -1,0 +1,1 @@
+../../../EmptyDoc/eplDoc.cls
