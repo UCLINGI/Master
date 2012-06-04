@@ -47,7 +47,7 @@ links = ["eplDoc.cls" , "logo_ucl.jpg"]
 for link in links:
     ressourceFile = os.path.join(ressourcesDir,link)
     docFile       = os.path.join(docDir,link)
-    os.symlink(os.path.relpath(ressourceFile,docFile), docFile)
+    os.symlink(os.path.relpath(ressourceFile,docDir), docFile)
 
 shutil.copy(os.path.join(ressourcesDir,"document.tex"), docDir)
 
